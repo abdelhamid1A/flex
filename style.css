@@ -33,24 +33,59 @@ nav ul li a{
 h1{
 	text-align:center;
 }
+aside ul {
+	
+	float: left;
+	list-style: none;
+	text-align:center;
+}
+aside ul  li {
+	
+	
+	list-style: none;
+	text-align:center;
+}
+h3{
+	text-align: center;
+}
+#img1{
+	margin-left: 80px;
+}
 #main{
 	display: flex;
 	flex-wrap: wrap;
 }
 .gg{
-	background-color: blue;
+	background-color: #ff9f43;
 	flex-basis: 25%;
 
 }
+.tt{
+	background-color: #feca57;
+	flex-basis: 25%;
+
+}
+footer{
+	background: #3498db;
+	width: 100%;
+	text-align: center;
+	height: 40px;
+
+}
+footer p{
+	padding-top: 15px;
+	color: #fff;
+}
 
 .mm{
-	background-color: green;
+	background-color: #c8d6e5;
 	flex-basis: 50%;
 }
 @media(max-width:900px){
 
 .mm{
 	flex-basis: 100%;
+	
 
 }
 
@@ -58,7 +93,15 @@ h1{
 	flex-basis: 50%;
 	order: 1;
 }
+.tt{
+	flex-basis: 50%;
+	order: 1;
+}
+.ff{
+	flex-basis: 100%;
+	order: 2;
 
+}
 
 
 
