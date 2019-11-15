@@ -53,7 +53,7 @@ h3{
 }
 #main{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap:wrap;
 }
 .gg{
 	background-color: #ff9f43;
@@ -79,12 +79,12 @@ footer p{
 
 .mm{
 	background-color: #c8d6e5;
-	flex-basis: 50%;
+	flex-basis: 25%;
 }
 @media(max-width:900px){
 
 .mm{
-	flex-basis: 100%;
+	flex-basis: 50%;
 	
 
 }
